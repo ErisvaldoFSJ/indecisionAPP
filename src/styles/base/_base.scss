@@ -4,5 +4,12 @@ html{
 }
 body{
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.6rem;
+    font-size: $m-size;
+    background-color: $body-background;
+}
+button{
+    cursor: pointer;
+}
+button:disabled{
+    cursor:default;
 }
